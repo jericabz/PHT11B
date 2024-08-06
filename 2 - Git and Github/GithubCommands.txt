@@ -6,17 +6,35 @@ git config --global user.email "email"
 git config user.name
 git config user.email
 
-//Git Initialize Repositories
+
+=== Git 3 Stages ===
+- Initialize Git Repository
 git init
 
-U means untracked
-
+=== Git Three Stages ===
+- Check the status of our files
 git status
 
-Save Changes
+- Add the files into the staging area
 git add .
+git add [filename.ext]
 
-track those Changes
+- Create a commit
+git commit -m "This is your message / description of the changes you made"
 
+git checkout -- <filename>
+git reset HEAD <filename>
 
-git commit -m "Create notes for mastering CLI and Git and Github"
+save it first to add change
+=== View the history of commits ===
+git log --oneline (history of commits)
+git log (more detailed)
+
+- Create branch 
+git brach (branch_name)
+
+- Show current branches
+git branch -a
+
+- Move to branch
+git switch (branch_name)
