@@ -1,0 +1,26 @@
+1) Creating Directories / Folder
+mkdir "Directory Name"
+
+2) Clear the terminal
+clear
+
+3) Deleting Directories / Folder
+rmdir "Directory Name"
+
+4) Print / Present the Current Directory
+pwd
+
+5) List Command (show the content of the current directory)
+ls
+
+6) Change Directory
+cd [directory_path]
+
+7) Go back one directory
+cd ..
+
+8) Create a file
+touch [file_name.ext]
+
+9) Delete a file 
+rm [file_name.ext]
