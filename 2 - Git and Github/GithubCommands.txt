@@ -6,3 +6,17 @@ git config --global user.email "email"
 git config user.name
 git config user.email
 
+//Git Initialize Repositories
+git init
+
+U means untracked
+
+git status
+
+Save Changes
+git add .
+
+track those Changes
+
+
+git commit -m "Create notes for mastering CLI and Git and Github"
