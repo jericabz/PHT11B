@@ -41,3 +41,8 @@ git switch (branch_name)
 
 - Merge created branch to the main branch
 git merge [branch_name]
+
+- Delete branch
+git branch -d [branch_name]
+
+q if buggy
