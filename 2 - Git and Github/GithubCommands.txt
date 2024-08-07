@@ -49,8 +49,10 @@ q if buggy
 
 git remote add origin https://github.com/jericabz/PHT11B.git
 
+Change from master to main
 $ git branch -M main
 
+Push to github
 $ git push -u origin main
 
 To copy Repository
