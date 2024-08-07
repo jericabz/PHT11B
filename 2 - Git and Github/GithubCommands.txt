@@ -46,3 +46,18 @@ git merge [branch_name]
 git branch -d [branch_name]
 
 q if buggy
+
+git remote add origin https://github.com/jericabz/PHT11B.git
+
+$ git branch -M main
+
+$ git push -u origin main
+
+To copy Repository
+git clone https://github.com/jericabz/PHT11B.git(SSH or HTTPS)
+
+- Cloning Repository
+git clone <repository-url>
+
+- Pulling Changes from a Remote Repository
+git pull origin main
