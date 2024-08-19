@@ -1,0 +1,61 @@
+/* Element Selector */
+span {
+    color: purple;
+}
+/* Class Selector group selector*/
+.class-name {
+    color: cyan;
+}
+/* ID Selector individual selector*/
+#id-name {
+    background-color: lightblue;
+}
+
+/* Universal Selector  */
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Attribute Selector */
+/* targetting elements with the href attribute */
+[href] {
+    color: brown;
+}
+/* targetting specific elements with the href attribute */
+a[href]{
+    background-color: antiquewhite;
+}
+/* targetting specific elements with specific href value */
+a[href="www.google.com"]{
+    font-weight: bold;
+}
+
+/* Grouping Selector */
+h1, h2, .parag {
+    color: violet;
+}
+
+/* Descendant Selector */
+.ancestor h3 {
+    color: olive;
+}
+.ancestor p {
+    color: aquamarine;
+}
+
+/* Pseudo-Class Selector */
+button:hover{
+    background-color: black;
+    color: white;
+}
+a:visited{
+    color: blue;
+}
+
+/* Pseudo-Element Selector */
+#pseudo-element::before {
+    content: 'Placed before h3 ';
+}
+#pseudo-element::first-letter{
+    color: coral;
+}

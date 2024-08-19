@@ -1,0 +1,57 @@
+/* Padding */
+.box1{
+    width: 300px;
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+/* Padding Shorthand  */
+.box2{
+    /* 
+    1 value = all sides
+    2 values = top and bottom || sides
+    3 values = top || sides || bottom
+    4 values = top || right || bottom || left
+    */
+    padding: 10px 20px 30px 40px;
+}
+
+/* Margin */
+.box3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+
+/* Margin Shorthand */
+.box4 {
+    /* 
+    1 value = all sides
+    2 values = top and bottom || sides
+    3 values = top || sides || bottom
+    4 values = top || right || bottom || left
+    */
+    margin: 10px 20px 30px 40px;
+}
+
+/* Border  */
+.mix-borders{
+    border-style: dotted dashed solid double;
+    border-radius: 10px;
+}
+
+.circle-container{
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+/* Inline > Internal > ID > Class > Element > Internal */
+
+/* padding to expand */

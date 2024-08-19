@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <form action="submit_page.php">
+        <h1>Form Example</h1>
+        <div>
+            <label for="fullname-id">Full Name: </label>
+            <input type="text" name="user-fullname" id="fullname-id" placeholder="John Doe" required>
+        </div>
+        <br>
+        <div>
+            <label for="email-id">Email: </label>
+            <input type="email" name="user-email" id="email-id" placeholder="email@email.com" required>
+        </div>
+        <br>
+        <div>
+            <label for="birthday-id">Birthday:</label>
+            <input type="date" name="user-birthday" id="birthday-id">
+        </div>
+        <br>
+        <div>
+            <label for="password-id">Password: </label>
+            <input type="password" name="user-password" id="password" required>
+        </div>
+        <br>
+        <div>
+            <label for="age-id">Age: </label>
+            <input type="number" name="user-age" id="age-id" max="100" min="18" required>
+        </div>
+        <br>
+        <div>
+            <label for="gender-id">Gender: </label>
+            <select name="user-gender" id="gender-id">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="non-confirming">Non-Confirming</option>
+            </select>
+        </div>
+
+        <br>
+        <div>
+            <p>Marital Status</p>
+            <input type="radio" name="user-marital-status" id="single-status-id" required>
+            <label for="single-status-id">Single</label>
+            <input type="radio" name="user-marital-status" id="married-status-id" required>
+            <label for="married-status-id">Married</label>
+            <input type="radio" name="user-marital-status" id="divorced-status-id" required>
+            <label for="divorced-status-id">Divorced</label>
+        </div>
+        <div>
+            <p>Favorite Color:</p>
+            <input type="checkbox" name="user-fave-color" id="red-id" required>
+            <label for="red-id">Red</label>
+            <input type="checkbox" name="user-fave-color" id="blue-id" required>
+            <label for="blue-id">Blue</label>
+            <input type="checkbox" name="user-fave-color" id="yellow-id" required>
+            <label for="yellow-id">Yellow</label> 
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <h2>Images</h2>
+    <img src="https://mondaymandala.com/wp-content/uploads/Printable-Smiling-Face-with-Smiling-Eyes-Emoji_-791x1024.jpg" height="300px" width="250px" alt="smiling face with smiling eyes emoji">
+</body>
+</html>

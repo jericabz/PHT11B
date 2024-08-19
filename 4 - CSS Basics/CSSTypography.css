@@ -1,0 +1,38 @@
+.font-family-size{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.center-align{
+    text-align: center;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.line-height{
+    line-height: 5;
+}
+
+.letter-spacing{
+    letter-spacing: 5px;
+}
+
+.text-shadow{
+    /* 1st value = horizontal
+    2nd value = vertical
+    3rd value = opacity / blur  */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}

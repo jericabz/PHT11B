@@ -1,0 +1,65 @@
+Boiler Plate 
+ !
+HTML Tag 
+<></>
+
+Opening Tags
+<>
+
+Closing Tags 
+</>
+
+Selft Clossing Tags
+<meta charset="UTF-8">
+
+HTML element
+inside html A whole Contents set of tags inside 
+
+Body 
+REflected inside our website
+
+ctrl + / to Comment 
+
+HTML Create a backbone of the website
+
+Heading to define each section of the website
+
+Line breaks 
+br 
+
+a straight line for separating the elements 
+hr 
+
+Bold 
+<strong></strong>
+
+italic
+<em></em>
+
+Underline
+<u></u>
+
+Subscript
+<sub></sub>
+
+Super Script 
+<sup></sup>
+
+Order List 
+<ol></ol>
+
+Unorder List 
+<ul></ul>
+
+Inline 
+
+Block
+
+To open link in the other tab
+target="_blank"
+
+attribute
+inside 
+
+<h2>Links and Anchors</h2>
+<a href="https://google.com" target="_blank">Google</a>

@@ -1,0 +1,12 @@
+p selector
+{
+    declaration block
+}
+
+{
+    color:red; declaration
+}
+
+color property 
+red value
+
